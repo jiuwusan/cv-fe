@@ -1,7 +1,7 @@
 <template>
   <div class="column">
     <div class="my-name">
-      <img src="@/assets/image/info.svg" class="my-name-icon" />
+      <iconfont name="info" class="my-name-icon" />
       <div>
         {{ data.name }} - <span style="font-size: 16px">{{ data.position }}</span>
       </div>
