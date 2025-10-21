@@ -1,15 +1,16 @@
 <template>
   <div class="page-box">
-    <basic-info :data="data.basicInfo" />
+    <professional-infos :data="data.basicInfo" />
   </div>
 </template>
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import BasicInfo from './basic-info.vue'
+import ProfessionalInfos from './professional-infos.vue'
 
-const data = ref<{ basicInfo: Record<string, string> }>({ basicInfo: {} })
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const data = ref<{ basicInfo: Record<string, any> }>({ basicInfo: {} })
 const route = useRoute()
 onMounted(() => {
   ;(async () => {

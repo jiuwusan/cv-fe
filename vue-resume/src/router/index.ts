@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/resume/:name',
       name: 'resume',
-      component: () => import('@/views/resume/route-page.vue'),
+      component: () => import('@/views/resume/view.vue'),
     },
   ],
 })

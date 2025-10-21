@@ -4,6 +4,7 @@
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import '@/assets/iconfont/iconfont.css'
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss"></style>

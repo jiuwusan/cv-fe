@@ -31,6 +31,7 @@
 .person {
   display: flex;
   margin: 10px 0 0 10px;
+  flex-wrap: wrap;
 }
 
 .person-ul {
@@ -40,6 +41,7 @@
 }
 
 .person-li {
+  width: 50%;
   margin-top: 10px;
   display: flex;
   align-items: center;
