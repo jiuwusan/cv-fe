@@ -1,5 +1,5 @@
 <template>
-  <div class="page-box">
+  <div v-if="data" class="page-box">
     <professional-infos :data="data.basicInfo" />
   </div>
 </template>
@@ -10,7 +10,7 @@ import { useRoute } from 'vue-router'
 import ProfessionalInfos from './professional-infos.vue'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const data = ref<{ basicInfo: Record<string, any> }>({ basicInfo: {} })
+const data = ref<{ basicInfo: Record<string, any> }>()
 const route = useRoute()
 onMounted(() => {
   ;(async () => {
