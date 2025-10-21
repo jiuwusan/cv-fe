@@ -1,0 +1,13 @@
+{
+  "basicInfo": {
+    "name": "胡章容",
+    "position": "前端开发工程师",
+    "others": [
+      {
+        "icon": "icon-github",
+        "label": "GitHub",
+        "value": "https://github.com/huzhangrong"
+      }
+    ]
+  }
+}
